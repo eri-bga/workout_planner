@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "workout-planner"
+version = "0.1.0"
+description = "A workout planner and tracker that helps users create a personalized workout plans based on their fitness goals and preferences."
+authors = ["eri-bga <godseeshears@gmail.com>"]
+license = "MIT license"
+readme = "README.md"
+packages = [{include = "workout_planner"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
